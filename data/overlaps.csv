@@ -1,0 +1,7 @@
+﻿overlap_id,distance_mi,time_gap (day),utility_a,project_id_a,project_name_a,utility_b,project_id_b,project_name_b
+OVL_1,4.09,3074,Dominion Energy South Carolina,DESC_2,Hooks - Thurmond 115 kV Tie: Rebuild,Georgia Power,GPC_1,EVANS PRIMARY - THURMOND DAM (USA) #5 115KV REBUILD
+OVL_2,5.65,152,Dominion Energy South Carolina,DESC_3,Jasper - Okatie 230 kV #2: Construct,Georgia Power,GPC_2,SAV: MCINTOSH - PURRYSBURG 230KV REACTORS
+OVL_3,7.55,517,Dominion Energy South Carolina,DESC_3,Jasper - Okatie 230 kV #2: Construct,Georgia Power,GPC_3,SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD
+OVL_4,8.01,3074,Dominion Energy South Carolina,DESC_1,Stevens Creek - Hooks 115 kV / LR Plumb Branch 46 kV Rebuilds,Georgia Power,GPC_1,EVANS PRIMARY - THURMOND DAM (USA) #5 115KV REBUILD
+OVL_5,14.34,365,Dominion Energy South Carolina,DESC_5,Okatie-Bluffton 115 kV: Rebuild,Georgia Power,GPC_2,SAV: MCINTOSH - PURRYSBURG 230KV REACTORS
+OVL_6,14.81,730,Dominion Energy South Carolina,DESC_5,Okatie-Bluffton 115 kV: Rebuild,Georgia Power,GPC_3,SAV: GOSHEN (SAV) - MCINTOSH 115KV LINE REBUILD
