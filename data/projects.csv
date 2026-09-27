@@ -72,8 +72,8 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 163,71,Buxmont,PA,Pennsylvania,40.348408,-75.341207,Rebuild Whitpain - Buxmont 230 kV Line,12530000,17,2027,Rebuild,,known,PPL Electric Utilities
 166,72,Webster,IA,Iowa,42.566109,-94.092199,Webster - Franklin - Marshalltown - Morgan Valley,889000000,,2027 | 2029 | 2031,,,known,MidAmerican Energy Company
 166,73,Morgan Valley,IA,Iowa,41.903476,-91.811883,Webster - Franklin - Marshalltown - Morgan Valley,889000000,,2027 | 2029 | 2031,,,known,MidAmerican Energy Company
-172,74,Nelson Road,MI,Michigan,43.21083,-84.830109,LRTP-18: Oneida – Nelson Rd.,470000000,,2024 | 2025 | 2026 | 2027 | 2028 | 2029,,,known,ITC
-172,75,Oneida,MI,Michigan,42.685617,-84.78513,LRTP-18: Oneida – Nelson Rd.,470000000,,2024 | 2025 | 2026 | 2027 | 2028 | 2029,,,known,ITC
+172,74,Nelson Road,MI,Michigan,43.21083,-84.830109,LRTP-18: Oneida -Nelson Rd.,470000000,,2024 | 2025 | 2026 | 2027 | 2028 | 2029,,,known,ITC
+172,75,Oneida,MI,Michigan,42.685617,-84.78513,LRTP-18: Oneida - Nelson Rd.,470000000,,2024 | 2025 | 2026 | 2027 | 2028 | 2029,,,known,ITC
 181,76,Elmont,VA,Virginia,37.697796,-77.484711,Rebuild Ladysmith to Elmont 500 kV Line,118000000,26.2,2026,Rebuild,,known,Dominion Energy
 181,77,Ladysmith,VA,Virginia,38.046653,-77.550276,Rebuild Ladysmith to Elmont 500 kV Line,118000000,26.2,2026,Rebuild,,known,Dominion Energy
 182,78,Elmont,VA,Virginia,37.697796,-77.484711,Rebuild Elmont to Chickahominy 500 kV Line,214000000,27.7,2029,Rebuild,,known,Dominion Energy
@@ -460,7 +460,7 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 162,459,Brownstown,MI,Michigan,42.116047,-83.248786,23965-Brownstown-Monroe,475883021,,2028,,moderate,estimated,ITC
 162,460,Monroe,MI,Michigan,41.91939,-83.385777,23965-Brownstown-Monroe,475883021,,2028,,moderate,estimated,ITC
 164,461,North Rochester,MN,Minnesota,44.223046,-92.658868,Mankato-Mississippi River Transmission Line Project,472338904,,2028,,moderate,estimated,"Xcel Energy / Xcel Energy, Dairyland Power Cooperative, Rochester Public Utilities, Southern Minnesota Municipal Power Agency"
-165,462,Lehigh,IA,Iowa,42.371388,-94.116499,Lehigh - Marshalltown - Franklin North - Montezuma,472338904,,2032,,moderate,estimated,MidAmerican Energy Company; ITC Midwest LLC (assigned and connecting-facility owners; MARS competitive-line developer not yet selected)
+165,462,Lehigh,IA,Iowa,42.371388,-94.116499,Lehigh - Marshalltown - Franklin North - Montezuma,472338904,,2032,,moderate,estimated,MidAmerican Energy Company; ITC Midwest LLC
 167,463,Raun,IA,Iowa,42.329359,-96.365463,27451-Raun-Remsen,475883021,,2025,,moderate,estimated,MidAmerican Energy Company
 167,464,Remsen,IA,Iowa,42.764956,-95.933623,27451-Raun-Remsen,475883021,,2025,,moderate,estimated,MidAmerican Energy Company
 168,465,Milan,MI,Michigan,42.111261,-83.653196,27785-Majestic-Milan,475883021,,2029,,moderate,estimated,ITC
@@ -482,7 +482,7 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 175,481,Nanticoke,ON,Ontario,42.800105,-80.055868,Lake Erie Connector,1191644799,Underwater HVDC: 65 | Underground AC: 0.3 | Underground HVDC: 7,NaN,"New circuit, greenfield",moderate,estimated,NextEra Energy
 176,482,Burches Hill,MD,Maryland,38.738383,-76.870874,N1085N - Burches Hill 230 kV,213231048,,NaN,,moderate,estimated,Potomac Electric Power Company (Pepco)
 177,483,Quad Cities,IL,Illinois,41.726519,-90.30627,Reconductor Quad Cities - ESS H471 345 kV,472338904,,NaN,,moderate,estimated,Commonwealth Edison Company (ComEd)
-178,484,Montezuma Switching Station,IA,Iowa,41.61047,-92.5636,Lehigh- Marshalltown- Franklin North & Montezuma,472338904,,2032,,moderate,estimated,MidAmerican Energy Company; ITC Midwest LLC (assigned and connecting-facility owners; MARS competitive-line developer not yet selected)
+178,484,Montezuma Switching Station,IA,Iowa,41.61047,-92.5636,Lehigh- Marshalltown- Franklin North & Montezuma,472338904,,2032,,moderate,estimated,MidAmerican Energy Company; ITC Midwest LLC 
 179,485,High Ridge,MD,Maryland,39.140803,-76.872811,North Delta - High Ridge 500 kV Line,1257607634,59,2030,"New circuit, greenfield",higher,estimated,"PECO, Baltimore Gas and Electric Company (BGE)"
 179,486,North Delta (Bramah),PA,Pennsylvania,39.750504,-76.293805,North Delta - High Ridge 500 kV Line,1257607634,59,2030,"New circuit, greenfield",higher,estimated,"PECO, Baltimore Gas and Electric Company (BGE)"
 179,487,Columbia,MD,Maryland,39.194216,-76.827561,North Delta - High Ridge 500 kV Line,1257607634,59,2030,"New circuit, greenfield",higher,estimated,"PECO, Baltimore Gas and Electric Company (BGE)"
@@ -597,9 +597,9 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 249,596,Hiple,IN,Indiana,41.557746,-85.596656,Morrison - Reynolds - Burr Oak - Leesburg - Hiple,472338904,,2029,,moderate,estimated,Northern Indiana Public Service Company
 250,597,Hiple,IN,Indiana,41.557746,-85.596656,Hiple to IN/MI Border Transmission Line,1875888404,28,2030,"New circuit, greenfield",moderate,estimated,Republic Transmission
 251,598,Kathleen,FL,Florida,28.226723,-82.026802,Osprey to Kathleen 230 kV Line,1027109210,26,2025,"New circuit, greenfield",higher,estimated,Duke Energy
-252,599,Brooksville West,FL,Florida,28.527853,-82.500611,Brooksville West – Mondon Hill – Bushnell East,714184918,,2025,,moderate,estimated,Duke Energy
-252,600,Bushnell East,FL,Florida,28.671774,-82.099225,Brooksville West – Mondon Hill – Bushnell East,714184918,,2025,,moderate,estimated,Duke Energy
-252,601,Mondon Hill,FL,Florida,28.55389,-82.366653,Brooksville West – Mondon Hill – Bushnell East,714184918,,2025,,moderate,estimated,Duke Energy
+252,599,Brooksville West,FL,Florida,28.527853,-82.500611,Brooksville West - Mondon Hill �?Bushnell East,714184918,,2025,,moderate,estimated,Duke Energy
+252,600,Bushnell East,FL,Florida,28.671774,-82.099225,Brooksville West - Mondon Hill �?Bushnell East,714184918,,2025,,moderate,estimated,Duke Energy
+252,601,Mondon Hill,FL,Florida,28.55389,-82.366653,Brooksville West - Mondon Hill �?Bushnell East,714184918,,2025,,moderate,estimated,Duke Energy
 253,602,Ross Prairie,FL,Florida,29.005192,-82.262092,Ross Praire to Shaw Transmission Project,238096026,19,2026,"New circuit, greenfield",moderate,estimated,Duke Energy
 253,603,Red Oak Electric / Shaw,FL,Florida,29.145445,-82.183735,Ross Praire to Shaw Transmission Project,238096026,19,2026,"New circuit, greenfield",moderate,estimated,Duke Energy
 254,604,Sooner,OK,Oklahoma,36.447858,-97.05569,Sooner - Wekiwa 345 kV New Line,475883021,,2025,,moderate,estimated,Transource Oklahoma
@@ -711,8 +711,8 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 317,710,John Day 2,OR,Oregon,45.67784,-120.737835,Rock Creek - John Day 500 kV Line Upgrade,88666961,14,2030,Reconductor,higher,estimated,Bonneville Power Administration
 318,711,Midway,WA,Washington,46.620559,-119.782589,Midway - Ashe 230kV Transmission Line,1209421994,23,2025,"New circuit, greenfield",higher,estimated,"Bonneville Power Administration, Department of Energy Richland"
 318,712,Ashe,WA,Washington,46.479848,-119.335974,Midway - Ashe 230kV Transmission Line,1209421994,23,2025,"New circuit, greenfield",higher,estimated,"Bonneville Power Administration, Department of Energy Richland"
-319,713,Ashe,WA,Washington,46.479848,-119.335974,Townsend - Ashe 500 kV,643667350,500,NaN,"New circuit, existing ROW",higher,estimated,Bonneville Power Administration (BPA) (Ashe connecting facility owner; project developer not confirmed)
-319,714,Townsend,MT,Montana,46.254187,-111.46829,Townsend - Ashe 500 kV,643667350,500,NaN,"New circuit, existing ROW",higher,estimated,Bonneville Power Administration (BPA) (Ashe connecting facility owner; project developer not confirmed)
+319,713,Ashe,WA,Washington,46.479848,-119.335974,Townsend - Ashe 500 kV,643667350,500,NaN,"New circuit, existing ROW",higher,estimated,Bonneville Power Administration (BPA) 
+319,714,Townsend,MT,Montana,46.254187,-111.46829,Townsend - Ashe 500 kV,643667350,500,NaN,"New circuit, existing ROW",higher,estimated,Bonneville Power Administration (BPA)
 320,715,Big Eddy,OR,Oregon,45.606691,-121.11599,Big Eddy - Chemawa 230/500 kV Line Upgrade,478239756,117,2032,Upgrade,higher,estimated,Bonneville Power Administration
 320,716,Chemawa,OR,Oregon,45.014799,-122.999375,Big Eddy - Chemawa 230/500 kV Line Upgrade,478239756,117,2032,Upgrade,higher,estimated,Bonneville Power Administration
 320,717,Ostrander,OR,Oregon,45.360211,-122.407012,Big Eddy - Chemawa 230/500 kV Line Upgrade,478239756,117,2032,Upgrade,higher,estimated,Bonneville Power Administration
@@ -727,8 +727,8 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 326,726,La Pine,OR,Oregon,43.661113,-121.45428,La Pine - Bonanza 230 kV Line,225932512,52,2029,"New circuit, existing ROW",higher,estimated,Bonneville Power Administration
 327,727,Trojan Nuclear Plant Switchyard,OR,Oregon,46.039541,-122.889428,Harborton - Trojan #3 and #4 230kV,1106962428,34,2030,"New circuit, greenfield",higher,estimated,Portland General Electric
 327,728,Harborton,OR,Oregon,45.614281,-122.797273,Harborton - Trojan #3 and #4 230kV,1106962428,34,2030,"New circuit, greenfield",higher,estimated,Portland General Electric
-328,729,Colstrip,MT,Montana,45.891128,-106.612819,Colstrip - Townsend - Midpoint 500 kV,418904456,,NaN,,moderate,estimated,Idaho Power Company (Midpoint connecting facility owner; project developer not confirmed)
-328,730,Midpoint,ID,Idaho,42.835674,-114.420608,Colstrip - Townsend - Midpoint 500 kV,418904456,,NaN,,moderate,estimated,Idaho Power Company (Midpoint connecting facility owner; project developer not confirmed)
+328,729,Colstrip,MT,Montana,45.891128,-106.612819,Colstrip - Townsend - Midpoint 500 kV,418904456,,NaN,,moderate,estimated,Idaho Power Company 
+328,730,Midpoint,ID,Idaho,42.835674,-114.420608,Colstrip - Townsend - Midpoint 500 kV,418904456,,NaN,,moderate,estimated,Idaho Power Company 
 329,731,Intermountain,UT,Utah,39.501311,-112.58069,TransWest Express,4376407902,500 AC: 330 | 500 DC: 402,2029,"New circuit, greenfield",moderate,estimated,The Anschutz Corporation
 329,732,Crystal,NV,Nevada,36.482508,-114.830345,TransWest Express,4376407902,500 AC: 330 | 500 DC: 402,2029,"New circuit, greenfield",moderate,estimated,The Anschutz Corporation
 329,733,Eldorado,NV,Nevada,35.797045,-115.00864,TransWest Express,4376407902,500 AC: 330 | 500 DC: 402,2029,"New circuit, greenfield",moderate,estimated,The Anschutz Corporation
@@ -769,9 +769,9 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 336,768,Treasureton,ID,Idaho,42.222541,-111.84966,Gateway Central,345804526,Segment C Limber to Terminal 345 kV: 42 | Segment C Limber to Oquirrh 345 kV Upgrade Connection: 2.3 | Segment C Limber to Tooele 138 kV: 13 | Segment C Limber to Clover 500 kV Upgrade Connection: 1.8 | Segment B Honeyville to Populus 345 kV Reconductor: 67,2028 | 2030,"New circuit, greenfield; Upgrade; Reconductor",moderate,estimated,PacifiCorp / Pacificorp
 337,769,Terminal,UT,Utah,40.758372,-112.006095,Oquirrh to Terminal Transmission Line Project,162689755,15,2024,"New circuit, greenfield",moderate,estimated,PacifiCorp
 337,770,Oquirrh,UT,Utah,40.564561,-112.028068,Oquirrh to Terminal Transmission Line Project,162689755,15,2024,"New circuit, greenfield",moderate,estimated,PacifiCorp
-339,771,Hemingway,ID,Idaho,43.350327,-116.663043,Rebuild Hemingway - Summer Lake 500 kV,386824760,240,NaN,Rebuild,higher,estimated,Idaho Power Company; PacifiCorp (existing line co-owners; project developer not confirmed)
-339,772,Summer Lake,OR,Oregon,43.013951,-120.955909,Rebuild Hemingway - Summer Lake 500 kV,386824760,240,NaN,Rebuild,higher,estimated,Idaho Power Company; PacifiCorp (existing line co-owners; project developer not confirmed)
-339,773,Burns,OR,Oregon,43.667606,-119.04783,Rebuild Hemingway - Summer Lake 500 kV,386824760,240,NaN,Rebuild,higher,estimated,Idaho Power Company; PacifiCorp (existing line co-owners; project developer not confirmed)
+339,771,Hemingway,ID,Idaho,43.350327,-116.663043,Rebuild Hemingway - Summer Lake 500 kV,386824760,240,NaN,Rebuild,higher,estimated,Idaho Power Company; PacifiCorp
+339,772,Summer Lake,OR,Oregon,43.013951,-120.955909,Rebuild Hemingway - Summer Lake 500 kV,386824760,240,NaN,Rebuild,higher,estimated,Idaho Power Company; PacifiCorp
+339,773,Burns,OR,Oregon,43.667606,-119.04783,Rebuild Hemingway - Summer Lake 500 kV,386824760,240,NaN,Rebuild,higher,estimated,Idaho Power Company; PacifiCorp
 340,774,Sigurd,UT,Utah,38.844292,-111.993279,Clover - Sigurd 345 kV,1191644799,69.2,NaN,"New circuit, greenfield",higher,estimated,PacifiCorp
 340,775,Clover,UT,Utah,39.789484,-111.894695,Clover - Sigurd 345 kV,1191644799,69.2,NaN,"New circuit, greenfield",higher,estimated,PacifiCorp
 341,776,Spanish Fork,UT,Utah,40.091884,-111.58629,Spanish Fork to Mercer Transmission Project,2086242711,47,2027,"New circuit, greenfield",moderate,estimated,PacifiCorp
@@ -908,7 +908,7 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 412,907,Tonkawa,TX,Texas,32.530732,-100.684202,Tonkawa - Ranger Camp 345 kV Line Rebuild,173110586,22,2027,"Rebuild; New circuit, existing ROW",higher,estimated,Oncor
 412,908,Ranger Camp,TX,Texas,32.348505,-100.912681,Tonkawa - Ranger Camp 345 kV Line Rebuild,173110586,22,2027,"Rebuild; New circuit, existing ROW",higher,estimated,Oncor
 413,909,Four Corners,NM,New Mexico,36.687159,-108.48522,North Path,4916683753,791,2028,"New circuit, greenfield",moderate,estimated,"Invenergy, New Mexico Renewable Energy Transmission Authority (RETA)"
-414,910,Four Corners,NM,New Mexico,36.687159,-108.48522,Four Corners - Pintado 345 kV,430312283,81,NaN,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
+414,910,Four Corners,NM,New Mexico,36.687159,-108.48522,Four Corners - Pintado 345 kV,430312283,81,NaN,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico (PNM)
 415,911,Pinal West,AZ,Arizona,32.997321,-112.196449,Palo Verde to Pinal West 500 kV transmission project,2139404103,52,2034,"New circuit, greenfield",higher,estimated,Salt River Project (SRP)
 415,912,Hassayampa,AZ,Arizona,33.345852,-112.852079,Palo Verde to Pinal West 500 kV transmission project,2139404103,52,2034,"New circuit, greenfield",higher,estimated,Salt River Project (SRP)
 415,913,Jojoba,AZ,Arizona,33.230528,-112.620414,Palo Verde to Pinal West 500 kV transmission project,2139404103,52,2034,"New circuit, greenfield",higher,estimated,Salt River Project (SRP)
@@ -945,16 +945,16 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 428,944,Cloverly,CO,Colorado,40.464018,-104.642151,Northern Colorado Area Plan - Ault to Cloverly Transmission Project,622484940,WAPA Ault - Husky: 4.6 | Husky - Collins St: 9 | Collins St - Cloverly: 8,2024,"New circuit, greenfield",moderate,estimated,Xcel Energy
 429,945,Husky,CO,Colorado,40.60439,-104.747539,Ault-Husky 230 kV Line Upgrade,20376813,4.6,NaN,Rebuild,higher,estimated,Western Area Power Administration (WAPA)
 429,946,WAPA Ault,CO,Colorado,40.605984,-104.814507,Ault-Husky 230 kV Line Upgrade,20376813,4.6,NaN,Rebuild,higher,estimated,Western Area Power Administration (WAPA)
-430,947,WAPA Ault,CO,Colorado,40.605984,-104.814507,Reconductor Archer to Ault 230 kV,40225217,42,NaN,Reconductor,higher,estimated,Western Area Power Administration (WAPA) (existing line owner; project developer not confirmed)
-430,948,Archer,WY,Wyoming,41.145246,-104.649029,Reconductor Archer to Ault 230 kV,40225217,42,NaN,Reconductor,higher,estimated,Western Area Power Administration (WAPA) (existing line owner; project developer not confirmed)
+430,947,WAPA Ault,CO,Colorado,40.605984,-104.814507,Reconductor Archer to Ault 230 kV,40225217,42,NaN,Reconductor,higher,estimated,Western Area Power Administration (WAPA) 
+430,948,Archer,WY,Wyoming,41.145246,-104.649029,Reconductor Archer to Ault 230 kV,40225217,42,NaN,Reconductor,higher,estimated,Western Area Power Administration (WAPA) 
 431,949,Bouse,AZ,Arizona,33.998189,-114.21671,Bouse Upgrade Project,88115652,18,2028,"New circuit, greenfield",moderate,estimated,Western Area Power Administration (WAPA)
 432,950,Bonanza,OR,Oregon,44.228502,-120.93657,La Pine-Bonanza Line,472338904,,2033,,moderate,estimated,Bonneville Power Administration
 433,951,Serrano,CA,California,33.829264,-117.789372,North of SONGS - Serrano 500 kV line,1800935977,40,2032,"New circuit, greenfield",higher,estimated,"Southern California Edison, Lotus Infrastructure Partners"
 433,952,San Onofre Nuclear Power Plant (SONGS),CA,California,33.369443,-117.553574,North of SONGS - Serrano 500 kV line,1800935977,40,2032,"New circuit, greenfield",higher,estimated,"Southern California Edison, Lotus Infrastructure Partners"
-434,953,San Onofre Nuclear Power Plant (SONGS),CA,California,33.369443,-117.553574,San Onofre to Viejo 230 kV,217766894,23,NaN,"New circuit, existing ROW",higher,estimated,Southern California Edison (existing line owner; project developer not confirmed)
-434,954,Viejo,CA,California,33.666969,-117.642432,San Onofre to Viejo 230 kV,217766894,23,NaN,"New circuit, existing ROW",higher,estimated,Southern California Edison (existing line owner; project developer not confirmed)
-435,955,San Onofre Nuclear Power Plant (SONGS),CA,California,33.369443,-117.553574,Santiago to San Onofre 230 kV,170314991,28,NaN,"New circuit, existing ROW",higher,estimated,Southern California Edison (existing line owner; project developer not confirmed)
-435,956,Santiago,CA,California,33.664668,-117.767998,Santiago to San Onofre 230 kV,170314991,28,NaN,"New circuit, existing ROW",higher,estimated,Southern California Edison (existing line owner; project developer not confirmed)
+434,953,San Onofre Nuclear Power Plant (SONGS),CA,California,33.369443,-117.553574,San Onofre to Viejo 230 kV,217766894,23,NaN,"New circuit, existing ROW",higher,estimated,Southern California Edison 
+434,954,Viejo,CA,California,33.666969,-117.642432,San Onofre to Viejo 230 kV,217766894,23,NaN,"New circuit, existing ROW",higher,estimated,Southern California Edison 
+435,955,San Onofre Nuclear Power Plant (SONGS),CA,California,33.369443,-117.553574,Santiago to San Onofre 230 kV,170314991,28,NaN,"New circuit, existing ROW",higher,estimated,Southern California Edison 
+435,956,Santiago,CA,California,33.664668,-117.767998,Santiago to San Onofre 230 kV,170314991,28,NaN,"New circuit, existing ROW",higher,estimated,Southern California Edison 
 436,957,Imperial Valley,CA,California,32.717619,-115.715533,Imperial Valley - North of SONGS Project,934860681,116,2034,"New circuit, greenfield",moderate,estimated,Horizon West Transmission (NextEra Energy Transmission)
 437,958,Helix,MI,Michigan,42.402444,-84.814701,Helix to Hiple,962549248,54,2030,"New circuit, greenfield",moderate,estimated,Xcel Energy
 438,959,Skunk River,IA,Iowa,40.986879,-91.633067,Ottumwa - Skunk River,353073613,53,2027,Upgrade,moderate,estimated,Ameren Illinois
@@ -980,8 +980,8 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 453,979,Riverton,TX,Texas,31.806771,-103.860953,Riverton - Sandlake 138 kV Line Conversion 345 kV and Riverton - Sandlake 138 kV Line,337451666,35,2026,Upgrade,higher,estimated,Oncor
 454,980,Sand Lake,TX,Texas,31.510254,-103.464183,Big Hill - Sand Lake 765 kV Transmission Project,2437210522,177,2030,"New circuit, greenfield",higher,estimated,"LCRA Transmission Services Corporation, Oncor"
 454,981,Big Hill,TX,Texas,31.047192,-100.543096,Big Hill - Sand Lake 765 kV Transmission Project,2437210522,177,2030,"New circuit, greenfield",higher,estimated,"LCRA Transmission Services Corporation, Oncor"
-455,982,Riverton,TX,Texas,31.806771,-103.860953,Construct Drill Hole – Riverton 345 kV Double-Circuit,475883021,,2027,,moderate,estimated,Oncor
-455,983,Drill Hole,TX,Texas,31.951969,-104.076844,Construct Drill Hole – Riverton 345 kV Double-Circuit,475883021,,2027,,moderate,estimated,Oncor
+455,982,Riverton,TX,Texas,31.806771,-103.860953,Construct Drill Hole - Riverton 345 kV Double-Circuit,475883021,,2027,,moderate,estimated,Oncor
+455,983,Drill Hole,TX,Texas,31.951969,-104.076844,Construct Drill Hole - Riverton 346 kV Double-Circuit,475883021,,2027,,moderate,estimated,Oncor
 456,984,Reforzar,TX,Texas,27.249895,-98.016124,Cruce to Reforzar: Construct New 345 kV Double Circuit Line,2118434732,39,2026,"New circuit, greenfield",higher,estimated,AEP Texas
 456,985,Cruce,TX,Texas,27.267635,-98.526909,Cruce to Reforzar: Construct New 345 kV Double Circuit Line,2118434732,39,2026,"New circuit, greenfield",higher,estimated,AEP Texas
 457,986,Grissom,TX,Texas,28.218241,-97.556691,Angstrom - Grissom: Build New Line,145626707,18,2024,"New circuit, greenfield",moderate,estimated,AEP Texas
@@ -1047,8 +1047,8 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 496,1046,Crossroads,NM,New Mexico,33.90554,-103.2734,Potter - Crossroads - Phantom 765 kV,1102834407,244.2,2031,"New circuit, greenfield",higher,estimated,Southwestern Public Service
 496,1047,Potter County,TX,Texas,35.310286,-101.922621,Potter - Crossroads - Phantom 765 kV,1102834407,244.2,2031,"New circuit, greenfield",higher,estimated,Southwestern Public Service
 496,1048,Phantom,NM,New Mexico,32.16316,-103.8525,Potter - Crossroads - Phantom 765 kV,1102834407,244.2,2031,"New circuit, greenfield",higher,estimated,Southwestern Public Service
-497,1049,Comstock,NV,Nevada,39.494742,-119.438757,Lantern – Comstock Meadows 345 kV line,2059570203,33,2029,"New circuit, greenfield",higher,estimated,NV Energy
-497,1050,Lantern,NV,Nevada,39.889663,-119.12056,Lantern – Comstock Meadows 345 kV line,2059570203,33,2029,"New circuit, greenfield",higher,estimated,NV Energy
+497,1049,Comstock,NV,Nevada,39.494742,-119.438757,Lantern - Comstock Meadows 345 kV line,2059570203,33,2029,"New circuit, greenfield",higher,estimated,NV Energy
+497,1050,Lantern,NV,Nevada,39.889663,-119.12056,Lantern - Comstock Meadows 345 kV line,2059570203,33,2029,"New circuit, greenfield",higher,estimated,NV Energy
 499,1051,S3452,NE,Nebraska,41.50926,-96.107466,Raun - S3452,977855424,88.2,2032,"New circuit, greenfield",moderate,estimated,Omaha Public Power District
 500,1052,East Stolle,NY,New York,42.836578,-78.580559,Empire State Line,319667417,21,2022,"New circuit, greenfield",moderate,estimated,NextEra Energy Transmission
 500,1053,Dysinger,NY,New York,43.106967,-78.566889,Empire State Line,319667417,21,2022,"New circuit, greenfield",moderate,estimated,NextEra Energy Transmission
@@ -1231,16 +1231,16 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 599,1230,Tomochichi,GA,Georgia,33.273723,-84.138121,Big Smarr - Tomochichi 500 kV,1762377176,36,2030,"New circuit, greenfield",higher,estimated,Georgia Transmission
 600,1231,Seminole (OK),OK,Oklahoma,34.965972,-96.732045,Seminole - SW Shreveport 765 kV,1325343078,314.6,2030,"New circuit, greenfield",higher,estimated,"Oklahoma Gas and Electric Company, AEP"
 600,1232,Southwest Shreveport,LA,Louisiana,32.404782,-93.864626,Seminole - SW Shreveport 765 kV,1325343078,314.6,2030,"New circuit, greenfield",higher,estimated,"Oklahoma Gas and Electric Company, AEP"
-601,1233,Seminole (OK),OK,Oklahoma,34.965972,-96.732045,Seminole - Anthem 765 kV,1062977677,131.3,2032,"New circuit, greenfield",higher,estimated,Oklahoma Gas and Electric Company; American Electric Power (AEP) (designated connecting-facility owners; 765 kV line developer not confirmed)
-601,1234,Anthem (OK),OK,Oklahoma,36.14611,-95.737158,Seminole - Anthem 765 kV,1062977677,131.3,2032,"New circuit, greenfield",higher,estimated,Oklahoma Gas and Electric Company; American Electric Power (AEP) (designated connecting-facility owners; 765 kV line developer not confirmed)
+601,1233,Seminole (OK),OK,Oklahoma,34.965972,-96.732045,Seminole - Anthem 765 kV,1062977677,131.3,2032,"New circuit, greenfield",higher,estimated,Oklahoma Gas and Electric Company; American Electric Power (AEP)
+601,1234,Anthem (OK),OK,Oklahoma,36.14611,-95.737158,Seminole - Anthem 765 kV,1062977677,131.3,2032,"New circuit, greenfield",higher,estimated,Oklahoma Gas and Electric Company; American Electric Power (AEP)
 602,1235,Dworshak,ID,Idaho,46.528443,-116.367189,Montana to Washington (M2W),55535459,90,NaN,Reconductor,moderate,estimated,Bonneville Power Administration
 603,1236,Taft,MT,Montana,47.456373,-115.589224,S-1022,472338904,,NaN,,moderate,estimated,Bonneville Power Administration (Taft substation owner/operator; project identity unconfirmed)
 604,1237,Rio Puerco,NM,New Mexico,35.326962,-106.855189,Rio Puerco-Prosperity 345 kV Line,358675181,43,2029,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico
 604,1238,Prosperity,NM,New Mexico,35.002601,-106.637623,Rio Puerco-Prosperity 345 kV Line,358675181,43,2029,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico
-605,1239,Rio Puerco,NM,New Mexico,35.326962,-106.855189,San Juan to Rio Puerco 345 kV,346208481,41,NaN,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
-605,1240,San Juan,NM,New Mexico,36.802126,-108.442429,San Juan to Rio Puerco 345 kV,346208481,41,NaN,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
-606,1241,Rio Puerco,NM,New Mexico,35.326962,-106.855189,Reconductor Rio Puerco - Pintado 345 kV,46305807,59,NaN,Reconductor,higher,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
-606,1242,Pintado,NM,New Mexico,35.957474,-107.568665,Reconductor Rio Puerco - Pintado 345 kV,46305807,59,NaN,Reconductor,higher,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
+605,1239,Rio Puerco,NM,New Mexico,35.326962,-106.855189,San Juan to Rio Puerco 345 kV,346208481,41,NaN,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico (PNM)
+605,1240,San Juan,NM,New Mexico,36.802126,-108.442429,San Juan to Rio Puerco 345 kV,346208481,41,NaN,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico (PNM)
+606,1241,Rio Puerco,NM,New Mexico,35.326962,-106.855189,Reconductor Rio Puerco - Pintado 345 kV,46305807,59,NaN,Reconductor,higher,estimated,Public Service Company of New Mexico (PNM)
+606,1242,Pintado,NM,New Mexico,35.957474,-107.568665,Reconductor Rio Puerco - Pintado 345 kV,46305807,59,NaN,Reconductor,higher,estimated,Public Service Company of New Mexico (PNM)
 607,1243,Three Peaks,UT,Utah,37.800606,-113.159712,Three Peaks - Purgatory Flat 345 kV line,1081669385,55,2033,"New circuit, greenfield; New circuit, existing ROW",higher,estimated,PacifiCorp
 607,1244,Purgatory Flat,UT,Utah,37.154921,-113.437997,Three Peaks - Purgatory Flat 345 kV line,1081669385,55,2033,"New circuit, greenfield; New circuit, existing ROW",higher,estimated,PacifiCorp
 608,1245,Western Spirit,NM,New Mexico,34.616379,-105.651139,Western Spirit - Chavez County 345 kV Line,826946444,136,NaN,"New circuit, greenfield",higher,estimated,Public Service Company of New Mexico
@@ -1248,33 +1248,33 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 609,1247,Hidden Mountain,NM,New Mexico,34.82501,-106.828795,Western Spirit - Hidden Mountain 345 kV Line,927416336,104,NaN,"New circuit, greenfield",higher,estimated,Public Service Company of New Mexico
 610,1248,Six Mile,OR,Oregon,45.814962,-119.891865,Lower Columbia to Bonanza II,721906323,167,NaN,"New circuit, existing ROW",moderate,estimated,Bonneville Power Administration
 611,1249,Six Mile,OR,Oregon,45.814962,-119.891865,Six Mile to Ashe 500 kV Line,376199149,58.5,NaN,"New circuit, existing ROW",higher,estimated,Bonneville Power Administration
-612,1250,Taiban Mesa,NM,New Mexico,34.587388,-104.03569,Rebuild Clines Corner - Guadalupe - Taiban Mesa,294684437,110,NaN,Rebuild,moderate,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
-612,1251,Guadalupe,NM,New Mexico,35.100758,-105.019146,Rebuild Clines Corner - Guadalupe - Taiban Mesa,294684437,110,NaN,Rebuild,moderate,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
-612,1252,Clines Corner,NM,New Mexico,35.091969,-105.716911,Rebuild Clines Corner - Guadalupe - Taiban Mesa,294684437,110,NaN,Rebuild,moderate,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
+612,1250,Taiban Mesa,NM,New Mexico,34.587388,-104.03569,Rebuild Clines Corner - Guadalupe - Taiban Mesa,294684437,110,NaN,Rebuild,moderate,estimated,Public Service Company of New Mexico (PNM)
+612,1251,Guadalupe,NM,New Mexico,35.100758,-105.019146,Rebuild Clines Corner - Guadalupe - Taiban Mesa,294684437,110,NaN,Rebuild,moderate,estimated,Public Service Company of New Mexico (PNM)
+612,1252,Clines Corner,NM,New Mexico,35.091969,-105.716911,Rebuild Clines Corner - Guadalupe - Taiban Mesa,294684437,110,NaN,Rebuild,moderate,estimated,Public Service Company of New Mexico (PNM)
 613,1253,Amrad,NM,New Mexico,32.519401,-106.138167,Reconductor Amrad - Chavez 345 kV Line,46532927,65,NaN,Reconductor,higher,estimated,El Paso Electric Company (Amrad connecting facility operator; exact line ownership unconfirmed; project developer not confirmed)
-614,1254,Marketplace,NV,Nevada,35.819235,-115.011322,Mead - Market Place 500 kV Line,127761415,14,NaN,"New circuit, existing ROW",higher,estimated,"Southern California Public Power Authority (SCPPA, including interests held for WAPA and LADWP); Arizona Public Service Company; Salt River Project; StarTrans IO, L.L.C. (existing Mead-Marketplace line co-owners; project developer not confirmed)"
-614,1255,Mead,NV,Nevada,35.927795,-114.833833,Mead - Market Place 500 kV Line,127761415,14,NaN,"New circuit, existing ROW",higher,estimated,"Southern California Public Power Authority (SCPPA, including interests held for WAPA and LADWP); Arizona Public Service Company; Salt River Project; StarTrans IO, L.L.C. (existing Mead-Marketplace line co-owners; project developer not confirmed)"
-615,1256,Mead,NV,Nevada,35.927795,-114.833833,Mead - Liberty - West Wing 500 kV Line,584354776,273,NaN,"New circuit, existing ROW",higher,estimated,Western Area Power Administration (WAPA) (existing Mead-Liberty/Liberty-Westwing corridor line owner; project developer not confirmed)
-615,1257,Westwing,AZ,Arizona,33.706426,-112.321858,Mead - Liberty - West Wing 500 kV Line,584354776,273,NaN,"New circuit, existing ROW",higher,estimated,Western Area Power Administration (WAPA) (existing Mead-Liberty/Liberty-Westwing corridor line owner; project developer not confirmed)
-616,1258,San Juan,NM,New Mexico,36.802126,-108.442429,San Juan to Four Corners 345 kV,36552462,10,NaN,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico (PNM); Tucson Electric Power Company (existing line co-owners; project developer not confirmed)
-617,1259,B-A,NM,New Mexico,35.348672,-106.482925,Reconductor Diamond Tail - B - A 345 kV,34639266,9,NaN,Reconductor,higher,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
-617,1260,Diamond Tail,NM,New Mexico,35.360913,-106.338141,Reconductor Diamond Tail - B - A 345 kV,34639266,9,NaN,Reconductor,higher,estimated,Public Service Company of New Mexico (PNM) (existing line owner; project developer not confirmed)
+614,1254,Marketplace,NV,Nevada,35.819235,-115.011322,Mead - Market Place 500 kV Line,127761415,14,NaN,"New circuit, existing ROW",higher,estimated,"Southern California Public Power Authority (SCPPA, including interests held for WAPA and LADWP); Arizona Public Service Company; Salt River Project; StarTrans IO, L.L.C."
+614,1255,Mead,NV,Nevada,35.927795,-114.833833,Mead - Market Place 500 kV Line,127761415,14,NaN,"New circuit, existing ROW",higher,estimated,"Southern California Public Power Authority (SCPPA, including interests held for WAPA and LADWP); Arizona Public Service Company; Salt River Project; StarTrans IO, L.L.C."
+615,1256,Mead,NV,Nevada,35.927795,-114.833833,Mead - Liberty - West Wing 500 kV Line,584354776,273,NaN,"New circuit, existing ROW",higher,estimated,Western Area Power Administration (WAPA) 
+615,1257,Westwing,AZ,Arizona,33.706426,-112.321858,Mead - Liberty - West Wing 500 kV Line,584354776,273,NaN,"New circuit, existing ROW",higher,estimated,Western Area Power Administration (WAPA) 
+616,1258,San Juan,NM,New Mexico,36.802126,-108.442429,San Juan to Four Corners 345 kV,36552462,10,NaN,"New circuit, existing ROW",higher,estimated,Public Service Company of New Mexico (PNM); Tucson Electric Power Company
+617,1259,B-A,NM,New Mexico,35.348672,-106.482925,Reconductor Diamond Tail - B - A 345 kV,34639266,9,NaN,Reconductor,higher,estimated,Public Service Company of New Mexico (PNM); Tucson Electric Power Company
+617,1260,Diamond Tail,NM,New Mexico,35.360913,-106.338141,Reconductor Diamond Tail - B - A 345 kV,34639266,9,NaN,Reconductor,higher,estimated,Public Service Company of New Mexico (PNM); Tucson Electric Power Company
 618,1261,Whiteston,OR,Oregon,42.4314,-122.90914,Reconductor Sams Valley - Whitestone 230 kV,4921469,2,2031,Reconductor,higher,estimated,PacifiCorp
 618,1262,Sams Valley,OR,Oregon,42.476275,-122.963352,Reconductor Sams Valley - Whitestone 230 kV,4921469,2,2031,Reconductor,higher,estimated,PacifiCorp
-619,1263,Terry Ranch,WY,Wyoming,41.04278,-104.809226,Reconductor Ault to Terry Ranch 230 kV,53973195,30,NaN,Reconductor,higher,estimated,Western Area Power Administration (WAPA) (existing line owner; project developer not confirmed)
+619,1263,Terry Ranch,WY,Wyoming,41.04278,-104.809226,Reconductor Ault to Terry Ranch 230 kV,53973195,30,NaN,Reconductor,higher,estimated,Western Area Power Administration (WAPA) 
 620,1264,Pleasant Valley Solar,ID,Idaho,43.32825,-115.986343,Mayfield 230 kV Substation and Transmission Lines,69512266,8,2028,"New circuit, greenfield",higher,estimated,Idaho Power
 620,1265,Mayfield,ID,Idaho,43.370225,-115.923296,Mayfield 230 kV Substation and Transmission Lines,69512266,8,2028,"New circuit, greenfield",higher,estimated,Idaho Power
 621,1266,Mayfield,ID,Idaho,43.370225,-115.923296,Mayfield to Boise Bench 230 kV Line,120874792,20,NaN,"New circuit, greenfield",higher,estimated,Idaho Power
 621,1267,Boise Bench,ID,Idaho,43.559107,-116.15826,Mayfield to Boise Bench 230 kV Line,120874792,20,NaN,"New circuit, greenfield",higher,estimated,Idaho Power
 622,1268,South Boise,ID,Idaho,43.506593,-116.23314,Mayfield to South Boise 230 kV Line,137816506,21,NaN,"New circuit, greenfield",higher,estimated,Idaho Power
 623,1269,Chip,ID,Idaho,43.524719,-116.133647,Mayfield to Chip 230 kV Line,65276905,16,NaN,"New circuit, existing ROW; New circuit, greenfield",higher,estimated,Idaho Power
-624,1270,Townsend,MT,Montana,46.254187,-111.46829,Townsend - Midpoint 500 kV,642792771,429,NaN,"New circuit, existing ROW",higher,estimated,Idaho Power Company (Midpoint connecting facility owner; project developer not confirmed)
-625,1271,Broadview,MT,Montana,46.051795,-108.851657,Colstrip - Broadview 500 kV Upgrade,397297941,112,NaN,Upgrade,higher,estimated,NorthWestern Energy; Puget Sound Energy; Avista Corporation; Portland General Electric Company; PacifiCorp (existing line co-owners; project developer not confirmed)
+624,1270,Townsend,MT,Montana,46.254187,-111.46829,Townsend - Midpoint 500 kV,642792771,429,NaN,"New circuit, existing ROW",higher,estimated,Idaho Power Company 
+625,1271,Broadview,MT,Montana,46.051795,-108.851657,Colstrip - Broadview 500 kV Upgrade,397297941,112,NaN,Upgrade,higher,estimated,NorthWestern Energy; Puget Sound Energy; Avista Corporation; Portland General Electric Company; PacifiCorp 
 626,1272,Woodward,OK,Oklahoma,36.311799,-99.368382,Crawfish Draw - Woodward 765 kV,1332934201,263.9,2032,"New circuit, greenfield",higher,estimated,"Southwestern Public Service, Oklahoma Gas and Electric Company"
 626,1273,Crawfish Draw,TX,Texas,33.864669,-101.789201,Crawfish Draw - Woodward 765 kV,1332934201,263.9,2032,"New circuit, greenfield",higher,estimated,"Southwestern Public Service, Oklahoma Gas and Electric Company"
-627,1274,Yell,AR,Arkansas,35.347688,-93.240958,Fort Smith - Yell 500 kV,813488197,80,NaN,"New circuit, greenfield",higher,estimated,"Oklahoma Gas and Electric Company; Entergy Arkansas, LLC (connecting-facility owner/operators; proposed line developer not confirmed)"
-628,1275,McNeil,AR,Arkansas,33.336705,-93.224444,Turk - McNeil 500 kV,1845125971,50,NaN,"New circuit, greenfield",higher,estimated,"American Electric Power (AEP); Entergy Arkansas, LLC (connecting-substation owners; proposed 500 kV line developer not confirmed)"
-628,1276,Turk,AR,Arkansas,33.646389,-93.743632,Turk - McNeil 500 kV,1845125971,50,NaN,"New circuit, greenfield",higher,estimated,"American Electric Power (AEP); Entergy Arkansas, LLC (connecting-substation owners; proposed 500 kV line developer not confirmed)"
+627,1274,Yell,AR,Arkansas,35.347688,-93.240958,Fort Smith - Yell 500 kV,813488197,80,NaN,"New circuit, greenfield",higher,estimated,"Oklahoma Gas and Electric Company; Entergy Arkansas, LLC"
+628,1275,McNeil,AR,Arkansas,33.336705,-93.224444,Turk - McNeil 500 kV,1845125971,50,NaN,"New circuit, greenfield",higher,estimated,"American Electric Power (AEP); Entergy Arkansas, LLC "
+628,1276,Turk,AR,Arkansas,33.646389,-93.743632,Turk - McNeil 500 kV,1845125971,50,NaN,"New circuit, greenfield",higher,estimated,"American Electric Power (AEP); Entergy Arkansas, LLC "
 629,1277,Brunswick,VA,Virginia,36.741401,-77.921151,Heritage - Mosby (HVDC Underground) 525 kV,748489036,185,2032,"New circuit, existing ROW",higher,estimated,Dominion
 629,1278,Mosby,VA,Virginia,38.894969,-77.568203,Heritage - Mosby (HVDC Underground) 525 kV,748489036,185,2032,"New circuit, existing ROW",higher,estimated,Dominion
 630,1279,Sunbury,PA,Pennsylvania,40.836241,-76.827685,Sunbury - Kelayres 500 kV,1970235985,24,2030,"New circuit, existing ROW; New circuit, greenfield",higher,estimated,PPL Electric Utilities
@@ -1287,30 +1287,30 @@ project_id,substation_id,substation_name,state_code,state_name,latitude,longitud
 633,1286,Adkins,OH,Ohio,39.712337,-83.177565,West Millersport - Adkins 765 kV,2072614856,38,2031,"New circuit, greenfield",higher,estimated,"Transource, First Energy"
 634,1287,Pecan Creek,OK,Oklahoma,35.716732,-95.468045,Heartland Spirit Connector,1847320709,540,2032,"New circuit, greenfield",moderate,estimated,NextEra Energy
 634,1288,White Bluff,AR,Arkansas,34.424093,-92.144217,Heartland Spirit Connector,1847320709,540,2032,"New circuit, greenfield",moderate,estimated,NextEra Energy
-635,1289,Turtle Creek,NE,Nebraska,41.09935,-96.171637,S3740 – S3454 345 kV,472338904,,2026,,moderate,estimated,Omaha Public Power District
-,1290,East 13th Street,NY,New York,40.727544,-73.974622,,,,2028,,,,Con Edison (associated project owner; project ID/name missing)
-,1291,Gamebird,NV,Nevada,36.161321,-115.900369,,,,2027 | 2028,,,,GridLiance West (associated project owner; project ID/name missing)
-,1292,Pahrump,NV,Nevada,36.197096,-115.968784,,,,2027 | 2028,,,,GridLiance West (associated project owner; project ID/name missing)
-,1293,Knickerbocker,NY,New York,42.506731,-73.736398,,,,2023,,,,New York Transco (associated project owner; project ID/name missing)
-,1294,Van Wagner,NY,New York,41.744535,-73.852542,,,,2023,,,,New York Transco (associated project owner; project ID/name missing)
-,1295,Haverstock,NY,New York,44.976161,-74.797008,,,,2025,,,,"The New York Power Authority (NYPA), National Grid (associated project owner; project ID/name missing)"
-,1296,Butler Farm,VA,Virginia,36.77907,-78.464998,,,,2026,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1297,Enon,VA,Virginia,37.339606,-77.323332,,,,2028,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1298,White Mountain,VA,Virginia,37.359501,-77.3219,,,,2028,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1299,Meadowville Switching Station,VA,Virginia,37.358719,-77.328665,,,,2028,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1300,Sloan Drive Switching Station,VA,Virginia,37.349199,-77.310898,,,,2028,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1301,Bermuda Hundred Switching Station,VA,Virginia,37.344203,-77.295163,,,,2028,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1302,Sycamore Springs Switching Station,VA,Virginia,37.327535,-77.348232,,,,2028,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1303,Germanna,VA,Virginia,38.437155,-77.872176,,,,NaN,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1304,Cirrus,VA,Virginia,38.462308,-77.976505,,,,NaN,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1305,McDevitt,VA,Virginia,38.461395,-77.990887,,,,NaN,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1306,Chandler,VA,Virginia,38.4628,-77.99169,,,,NaN,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1307,Palomino,VA,Virginia,38.464834,-77.991147,,,,NaN,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1308,Mt. Pony,VA,Virginia,38.453207,-77.977007,,,,NaN,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1309,Oak Green (Relocated),VA,Virginia,38.331615,-77.946642,,,,NaN,,,,Dominion Energy (associated project owner; project ID/name missing)
-,1310,Osprey,FL,Florida,28.054078,-81.80763,,,,NaN,,,,Duke Energy (associated project owner; project ID/name missing)
-,1311,Innovation,NV,Nevada,36.582466,-115.947361,,,,2027 | 2028,,,,GridLiance West (associated project owner; project ID/name missing)
-,1312,Desert View,NV,Nevada,36.365734,-115.367441,,,,2027 | 2028,,,,GridLiance West (associated project owner; project ID/name missing)
-,1313,Trout Canyon,NV,Nevada,36.076366,-115.7806,,,,2027 | 2028,,,,GridLiance West (associated project owner; project ID/name missing)
-,1314,Sloan Canyon,NV,Nevada,35.833184,-115.011805,,,,2027 | 2028,,,,GridLiance West (associated project owner; project ID/name missing)
-,1315,Vista,NV,Nevada,36.317331,-116.010826,,,,2027 | 2028,,,,GridLiance West (associated project owner; project ID/name missing)
+635,1289,Turtle Creek,NE,Nebraska,41.09935,-96.171637,S3740 S3454 345 kV,472338904,,2026,,moderate,estimated,Omaha Public Power District
+,1290,East 13th Street,NY,New York,40.727544,-73.974622,,,,2028,,,,Con Edison 
+,1291,Gamebird,NV,Nevada,36.161321,-115.900369,,,,2027 | 2028,,,,GridLiance West 
+,1292,Pahrump,NV,Nevada,36.197096,-115.968784,,,,2027 | 2028,,,,GridLiance West 
+,1293,Knickerbocker,NY,New York,42.506731,-73.736398,,,,2023,,,,New York Transco 
+,1294,Van Wagner,NY,New York,41.744535,-73.852542,,,,2023,,,,New York Transco 
+,1295,Haverstock,NY,New York,44.976161,-74.797008,,,,2025,,,,"The New York Power Authority (NYPA), National Grid "
+,1296,Butler Farm,VA,Virginia,36.77907,-78.464998,,,,2026,,,,Dominion Energy 
+,1297,Enon,VA,Virginia,37.339606,-77.323332,,,,2028,,,,Dominion Energy 
+,1298,White Mountain,VA,Virginia,37.359501,-77.3219,,,,2028,,,,Dominion Energy 
+,1299,Meadowville Switching Station,VA,Virginia,37.358719,-77.328665,,,,2028,,,,Dominion Energy 
+,1300,Sloan Drive Switching Station,VA,Virginia,37.349199,-77.310898,,,,2028,,,,Dominion Energy 
+,1301,Bermuda Hundred Switching Station,VA,Virginia,37.344203,-77.295163,,,,2028,,,,Dominion Energy 
+,1302,Sycamore Springs Switching Station,VA,Virginia,37.327535,-77.348232,,,,2028,,,,Dominion Energy 
+,1303,Germanna,VA,Virginia,38.437155,-77.872176,,,,NaN,,,,Dominion Energy 
+,1304,Cirrus,VA,Virginia,38.462308,-77.976505,,,,NaN,,,,Dominion Energy 
+,1305,McDevitt,VA,Virginia,38.461395,-77.990887,,,,NaN,,,,Dominion Energy 
+,1306,Chandler,VA,Virginia,38.4628,-77.99169,,,,NaN,,,,Dominion Energy 
+,1307,Palomino,VA,Virginia,38.464834,-77.991147,,,,NaN,,,,Dominion Energy 
+,1308,Mt. Pony,VA,Virginia,38.453207,-77.977007,,,,NaN,,,,Dominion Energy 
+,1309,Oak Green (Relocated),VA,Virginia,38.331615,-77.946642,,,,NaN,,,,Dominion Energy 
+,1310,Osprey,FL,Florida,28.054078,-81.80763,,,,NaN,,,,Duke Energy 
+,1311,Innovation,NV,Nevada,36.582466,-115.947361,,,,2027 | 2028,,,,GridLiance West 
+,1312,Desert View,NV,Nevada,36.365734,-115.367441,,,,2027 | 2028,,,,GridLiance West 
+,1313,Trout Canyon,NV,Nevada,36.076366,-115.7806,,,,2027 | 2028,,,,GridLiance West 
+,1314,Sloan Canyon,NV,Nevada,35.833184,-115.011805,,,,2027 | 2028,,,,GridLiance West 
+,1315,Vista,NV,Nevada,36.317331,-116.010826,,,,2027 | 2028,,,,GridLiance West 
