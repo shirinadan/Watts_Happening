@@ -1,12 +1,58 @@
 # Watts Happening
 
-A browser-only React dashboard for reviewing candidate coordination pairings between Dominion Energy South Carolina and Georgia Power planning projects. Project records are local static data; there is no application server, database, or backend API.
+A React project-comparison demo with a small Python calculation module. Add any number of projects to the selection; the default page compares every unique project pair using the **minimum distance between every pair of their substations** and displays only pairs within 40 km. The earlier regional dashboard remains available under **Regional overview**.
+
+## Open the demo without a server
+
+Open `frontend/dist/demo.html` in a browser. The generated HTML includes the app, project records, and Python-calculated results, so the comparison page needs no server, MongoDB connection, or internet access.
+
+To regenerate it from the repository root:
+
+```sh
+python backend/project_compare.py
+npm --prefix frontend ci
+npm --prefix frontend run build
+```
+
+Python uses only the standard library (`csv`, `math`, `json`); pandas is not required. Python 3.10+ and the Node version required by the existing Vite package are sufficient. The generated `frontend/src/data/projectComparisons.json` is checked in, so ordinary frontend builds do not require Python unless the CSVs have changed.
+
+## Comparison behavior
+
+- Enter a project name and press **Enter** or click **Add project**. Keep adding projects to the selection; a full unique name or a selected name/ID suggestion works.
+- Comparisons update automatically as projects are added or removed: 3 projects have 3 unique pairings, 4 projects have 6. Only pairings within 40 km appear in the results; farther or unknown distances do not create result rows. Duplicate selections are rejected.
+- There is no fixed selection limit. Long result lists show 50 nearby comparisons at a time; **Show more** reveals the next 50. The counter shows the number of matching nearby pairs.
+- Python checks all cross-project substation pairs using Haversine distance in **kilometers**, not project centers or municipality references. A shared station can correctly produce **0 km**.
+- At **40 km or less**, show the nearest two substations, distance, each project's utility/owner and planned in-service years, and the absolute year gap. Above 40 km, hide the result row while keeping the selected projects in the list. The threshold uses the unrounded distance.
+- Missing years or owners remain **Not available**. For multiple source years, display the possible year-gap range instead of choosing one year. Incomplete coordinates remain unknown and are excluded from nearby results.
+
+The main input is `data/main_data_cleaned_with_cost.csv`: 635 project groups and 1,289 project–station links. Its shared columns agree with `data/main_data_cleaned.csv`. The 26 rows with no project ID are retained in the source CSV and excluded from the project picker. Original CSV files are not modified.
+
+Utility/owner comes from the **Owner** column in `data/OurGridFuture_PlannedTransmissionProjects_Jun2026.csv`. Matching uses only complete normalized project names with an unambiguous catalog ID. It matches 501 projects; 479 have a nonempty owner. All distinct segment-owner strings are preserved; commas inside company names are not split. Unknown owners are not inferred from nearby stations or project-name prefixes.
+
+Project costs and lengths are passed to the frontend unchanged (cost in USD, source length in miles), including qualified costs and labeled multi-segment lengths. They are not used to calculate distance or assigned per station.
+
+## Python input and output
+
+`backend/project_compare.py` owns loading, owner matching, distance calculations, year gaps, and JSON export. Compare a selection without any web server:
+
+```sh
+python backend/project_compare.py --projects 332 349 344
+```
+
+It returns JSON with the selected project documents and a `comparisons` array, one entry per unique project pair, containing `status`, `distance_km`, `nearest_stations`, `year_gap`, and `year_gap_range`. The reusable function `compare_request(projects, {"project_ids": [332, 349, 344]})` accepts the selected IDs. The earlier two-project CLI (`--project-a 332 --project-b 349`) and request format remain supported.
+
+For this server-free demo, Python checks all 201,295 project pairs once, and exports only the 2,444 nearby results plus the full project list. The frontend looks up those precomputed results; it does **not** run a second distance/year calculation in JavaScript or call Python on every click. Absence from the nearby cache means far only when the export is complete and both projects have complete coordinates.
+
+The project JSON already groups substations under their project. A later MongoDB version can load documents in this shape and reuse `compare_request`; database ingestion and a live HTTP endpoint are intentionally not part of this demo.
+
+Example checks: **332 / 349** gives **19.864762 km**, a **1-year** gap, Xcel Energy / Grid United; **344 / 348** shares Robinson Summit and gives **0 km**; **1 / 311** is too far.
 
 ## Run Locally
 
 Requirements: Node.js supported by the installed Vite version and npm.
 
 ```sh
+cd frontend
 npm install
 npm run dev
 ```
@@ -16,14 +62,15 @@ The Vite development server prints its local URL. If port 5173 is already occupi
 ## Validation
 
 ```sh
-npm test
-npm run lint
-npm run build
+python -m unittest discover -s backend -v
+npm --prefix frontend test
+npm --prefix frontend run lint
+npm --prefix frontend run build
 ```
 
-Tests use Node's built-in test runner and cover date gaps, great-circle distances, score boundaries, ordering, and incomplete source data.
+Python tests cover multi-project selections, nearest-station selection, exact 40 km boundaries, shared stations, missing/multiple years, invalid project selections, owner mapping, and cache completeness. Existing Node tests still cover the original regional dashboard metrics.
 
-## Data Provenance
+## Original regional dashboard: data provenance
 
 The local planning documents are in `Project Listings/`:
 
